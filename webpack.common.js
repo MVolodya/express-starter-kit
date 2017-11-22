@@ -1,3 +1,4 @@
+const webpack = require("webpack");
 const path = require("path");
 const cleanWebpackPlugin = require("clean-webpack-plugin");
 
@@ -7,7 +8,10 @@ module.exports = {
     index: "./src/index.js"
   },
 
-  plugins: [new cleanWebpackPlugin(["dist"])],
+  plugins: [
+    new cleanWebpackPlugin(["dist"]),
+    new webpack.NoEmitOnErrorsPlugin()
+  ],
 
   module: {
     rules: [
