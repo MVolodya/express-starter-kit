@@ -1,0 +1,23 @@
+{
+  "name": "express-starter-kit",
+  "version": "0.1.0",
+  "description": "This is starter kit for backend development on express.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MVolodya/express-starter-kit.git"
+  },
+  "keywords": [
+    "express",
+    "babel"
+  ],
+  "author": "Volodymyr Medvid <medvid.volodya@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MVolodya/express-starter-kit/issues"
+  },
+  "homepage": "https://github.com/MVolodya/express-starter-kit#readme"
+}
