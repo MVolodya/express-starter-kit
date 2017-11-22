@@ -11,7 +11,10 @@
     "type": "git",
     "url": "git+https://github.com/MVolodya/express-starter-kit.git"
   },
-  "keywords": ["express", "babel"],
+  "keywords": [
+    "express",
+    "babel"
+  ],
   "author": "Volodymyr Medvid <medvid.volodya@gmail.com>",
   "license": "ISC",
   "bugs": {
@@ -19,12 +22,15 @@
   },
   "homepage": "https://github.com/MVolodya/express-starter-kit#readme",
   "dependencies": {
+    "@babel/runtime": "^7.0.0-beta.32",
     "express": "^4.16.2"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0-beta.32",
+    "@babel/plugin-transform-runtime": "^7.0.0-beta.32",
     "@babel/preset-env": "^7.0.0-beta.32",
     "babel-loader": "^8.0.0-beta.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "webpack": "^3.8.1",
     "webpack-merge": "^4.1.1"
   }
