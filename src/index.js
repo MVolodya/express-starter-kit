@@ -1,6 +1,9 @@
 import express from "express";
+import middlewaresConfig from "./config/middlewares";
 
 const app = express();
+
+middlewaresConfig(app);
 
 const PORT = process.env.PORT || 3000;
 
