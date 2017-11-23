@@ -9,7 +9,7 @@ module.exports = merge(common, {
     aggregateTimeout: 300
   },
 
-  devtool: "inline-cheap-module-source-map",
+  devtool: "source-map", // inline-cheap-module-source-map
 
   plugins: [
     new webpack.DefinePlugin({

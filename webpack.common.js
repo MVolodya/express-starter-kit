@@ -1,9 +1,13 @@
 const webpack = require("webpack");
 const path = require("path");
 const cleanWebpackPlugin = require("clean-webpack-plugin");
+const nodeExtrenals = require("webpack-node-externals");
 
 module.exports = {
   target: "node",
+
+  externals: [nodeExtrenals()],
+
   entry: {
     index: "./src/index.js"
   },
@@ -33,7 +37,8 @@ module.exports = {
   },
 
   output: {
+    path: path.resolve(__dirname, "dist"),
     filename: "[name].bundle.js",
-    path: path.resolve(__dirname, "dist")
+    libraryTarget: "commonjs2"
   }
 };

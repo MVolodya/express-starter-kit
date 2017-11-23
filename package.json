@@ -12,7 +12,10 @@
     "type": "git",
     "url": "git+https://github.com/MVolodya/express-starter-kit.git"
   },
-  "keywords": ["express", "babel"],
+  "keywords": [
+    "express",
+    "babel"
+  ],
   "author": "Volodymyr Medvid <medvid.volodya@gmail.com>",
   "license": "ISC",
   "bugs": {
@@ -32,6 +35,7 @@
     "clean-webpack-plugin": "^0.1.17",
     "uglifyjs-webpack-plugin": "^1.1.0",
     "webpack": "^3.8.1",
-    "webpack-merge": "^4.1.1"
+    "webpack-merge": "^4.1.1",
+    "webpack-node-externals": "^1.6.0"
   }
 }
